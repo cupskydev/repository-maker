@@ -1,5 +1,5 @@
-## Repository Maker
-Generate repository and interface files easily.
+## Repository Maker (Laravel)
+Generate repository and interface files easily in Laravel.
 
 ## Installation
 You need to install it via composer
