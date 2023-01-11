@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Cupskydev\RepositoryMaker;
 
 use App\Console\Commands\GenerateRepositoryCommand;
 use Illuminate\Support\ServiceProvider;
