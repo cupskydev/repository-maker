@@ -1,0 +1,27 @@
+{
+    "name": "cupskydev/repository-maker",
+    "description": "Repository Maker for Laravel",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Cupskydev\\RepositoryMaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yusufwandana",
+            "email": "yusuf.wandana1@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cupskydev\\RepositoryMaker\\"
+            ]
+        }
+    }
+}
