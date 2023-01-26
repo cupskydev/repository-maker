@@ -18,3 +18,17 @@ It will generate repository file with name "NewRepository" in App\Repositories
 $ php artisan make:repository NewRepository --i
 ```
 It will generate repository file with name "NewRepository" in App\Repositories and "NewRepositoryInterface" in App\Repositories\Interfaces
+
+## New update:
+
+## Generate a New Service File
+```
+$ php artisan make:service NewService
+```
+It will generate service file with name "NewService" in App\Services
+
+## Generate New Service with Interface File
+```
+$ php artisan make:service NewService --i
+```
+It will generate service file with name "NewService" in App\Services and "NewServiceInterface" in App\Services\Interfaces

@@ -2,10 +2,10 @@
 
 namespace Cupskydev\RepositoryMaker;
 
-use Cupskydev\RepositoryMaker\Commands\GenerateRepositoryCommand;
+use Cupskydev\RepositoryMaker\Commands\GenerateServiceCommand;
 use Illuminate\Support\ServiceProvider;
 
-class GenerateRepositoryProvider extends ServiceProvider
+class GenerateServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -24,6 +24,8 @@ class GenerateRepositoryProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->commands([GenerateRepositoryCommand::class]);
+        $this->commands([
+            GenerateServiceCommand::class,
+        ]);
     }
 }

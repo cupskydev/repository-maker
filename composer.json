@@ -20,7 +20,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cupskydev\\RepositoryMaker\\GenerateRepositoryProvider"
+                "Cupskydev\\RepositoryMaker\\GenerateRepositoryProvider",
+                "Cupskydev\\RepositoryMaker\\GenerateServiceProvider"
             ]
         }
     }
