@@ -49,7 +49,7 @@ class GenerateServiceCommand extends GeneratorCommand
 
     protected function getInterfaceStub(): string
     {
-        return self::STUB_PATH.'interface.stub';
+        return self::STUB_PATH.'s_interface.stub';
     }
 
     protected function getServiceInterfaceStub(): string

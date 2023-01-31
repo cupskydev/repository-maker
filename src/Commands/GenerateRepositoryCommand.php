@@ -49,7 +49,7 @@ class GenerateRepositoryCommand extends GeneratorCommand
 
     protected function getInterfaceStub(): string
     {
-        return self::STUB_PATH.'interface.stub';
+        return self::STUB_PATH.'r_interface.stub';
     }
 
     protected function getRepositoryInterfaceStub(): string
